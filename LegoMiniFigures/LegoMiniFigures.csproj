@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Torso\**" />
+    <EmbeddedResource Remove="Torso\**" />
+    <None Remove="Torso\**" />
+  </ItemGroup>
+
 </Project>
