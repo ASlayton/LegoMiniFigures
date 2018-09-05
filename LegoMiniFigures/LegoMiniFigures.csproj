@@ -11,8 +11,4 @@
     <None Remove="Torso\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Legs\" />
-  </ItemGroup>
-
 </Project>
