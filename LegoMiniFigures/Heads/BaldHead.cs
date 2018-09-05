@@ -2,16 +2,23 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LegoMiniFigures.Heads
+namespace LegoMinifigures.Heads
 {
-    class BaldHead: HeadBase
+    class BaldHead : Head
     {
+        private readonly string _name;
+
         public override bool HasHair { get { return false; } }
         public int SmoothnessLevel { get; set; }
 
+        public BaldHead(string name)
+        {
+            _name = name;
+        }
+
         public override void Talk()
         {
-            Console.WriteLine("Hi, I'm a Baldi!");
+            Console.WriteLine($"Hi, I'm {_name}!");
         }
 
         public override void Eat()

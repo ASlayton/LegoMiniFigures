@@ -1,9 +1,9 @@
-﻿namespace LegoMiniFigures.Torso
+﻿namespace LegoMinifigures.Torsos
 {
     class Torso
     {
         public string Color { get; set; }
-        public string NumberOfArms { get; set; }
+        public int NumberOfArms { get; set; }
         public bool HasClothes { get; set; }
     }
 }

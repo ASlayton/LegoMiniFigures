@@ -1,18 +1,19 @@
-﻿using LegoMiniFigures.Heads;
-using LegoMiniFigures.Torsos;
+﻿using LegoMinifigures.Heads;
+using LegoMinifigures.Torsos;
 using System;
 
-namespace LegoMiniFigures
+namespace LegoMinifigures
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var head = new HairyHead();
+            var head = new NathanHead();
             var reptileBody = new ReptilianTorso();
-            reptileBody.Color = "brown";
+            reptileBody.Color = "Brown";
 
-            var figure = new MiniFigure(head, reptileBody);
+            var figure = new Minifigure(head, reptileBody);
+
             figure.Greet();
             figure.TakeABreak();
 

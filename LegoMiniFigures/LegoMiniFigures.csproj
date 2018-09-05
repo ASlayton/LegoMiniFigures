@@ -6,8 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Torso\**" />
+    <EmbeddedResource Remove="Torso\**" />
+    <None Remove="Torso\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Legs\" />
-    <Folder Include="Torso\" />
   </ItemGroup>
 
 </Project>

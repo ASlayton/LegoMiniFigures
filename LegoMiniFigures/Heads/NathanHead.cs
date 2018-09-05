@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LegoMiniFigures.Heads
+namespace LegoMinifigures.Heads
 {
-    class HairyHead : HeadBase
+    class NathanHead : Head
     {
         public override bool HasHair { get { return true; } }
-        public string HairColor { get { return "Salt n Pepper"; } }
+        public string HairColor { get { return "Salt n Peppa"; } }
         public string Texture { get; set; }
 
         public override void Eat()
         {
-            Console.WriteLine("Doesn't Eat because of needy students");
+            Console.WriteLine("I never get to eat because of needy students");
         }
     }
+
 }

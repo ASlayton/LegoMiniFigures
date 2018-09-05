@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LegoMiniFigures.Torsos
+namespace LegoMinifigures.Torsos
 {
-    class BirdTorso: ReptilianTorso
+    class BirdTorso : ReptilianTorso
     {
         public bool CanFly { get; set; }
 
@@ -12,11 +12,11 @@ namespace LegoMiniFigures.Torsos
         {
             if (CanFly)
             {
-                Console.WriteLine("I believe I can fly...");
+                Console.WriteLine("I believe i can fly...");
             }
             else
             {
-                Console.WriteLine("I am a flightless bird.");
+                Console.WriteLine("I am a flightless bird");
             }
         }
     }
